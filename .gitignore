@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 spotify_credentials.py
+.DS_Store

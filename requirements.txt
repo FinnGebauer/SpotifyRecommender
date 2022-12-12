@@ -2,3 +2,4 @@ spotipy
 plotly
 scikit-multilearn
 scikit-learn
+textblob

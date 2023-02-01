@@ -4,7 +4,7 @@ Project for a Spotify recommender system using multiclass/multilabel classificat
 This project was the final project for the data science bootcamp at Spiced academy.
 
 ## Data
-Using the Spotify API, I pulled playlist matching certain moods. Accodring to Thayer's mood model, I chose angry, happy, calm and sad. I pulled 10 playlists for every mood, totalling 3000 songs.
+Using the Spotify API, I pulled playlist matching certain moods. According to Thayer's mood model, I chose angry, happy, calm and sad. I pulled 10 playlists for every mood, totalling 3000 songs.
 
 ## Models
 I classified the songs using several multiclass models, the best one ending up a random forest model (75% accuracy). Using the predict probabilities of this model, I decided to turn the data set into a multilabel dataset and run a ClassifierChain with a random forest (86% accuracy). 
